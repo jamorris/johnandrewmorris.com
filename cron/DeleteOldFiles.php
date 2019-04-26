@@ -1,5 +1,8 @@
 <?php
 
+/*** default time zone ***/
+date_default_timezone_set('UTC');
+
 /** define the directory **/
 $dir = "../lightning/";
 
@@ -19,6 +22,6 @@ foreach (glob($dir."*") as $file) {
 }
 
 /*** completion info ***/
-echo "finished at ", date(DATE_RFC2822), " time: ", time();
+echo "finished at ", date(DATE_RFC2822);
 
 ?>
