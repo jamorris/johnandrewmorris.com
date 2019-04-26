@@ -22,6 +22,6 @@ foreach (glob($dir."*") as $file) {
 }
 
 /*** completion info ***/
-echo "finished at ", date(DATE_RFC2822);
+echo "finished at ", date(DATE_RFC2822), " UTC time";
 
 ?>
