@@ -4,7 +4,7 @@
 date_default_timezone_set('UTC');
 
 /** define the directory **/
-$dir = "../lightning/";
+$dir = "/home/u674189193/domains/johnandrewmorris.com/public_html/lightning/";
 
 /*** cycle through all files in the directory ***/
 foreach (glob($dir."*") as $file) {
